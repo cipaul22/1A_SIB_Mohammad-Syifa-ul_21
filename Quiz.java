@@ -13,9 +13,9 @@ public class Quiz{
                 System.out.print("Tebak angka (1-10) : ");
                 int answer = input.nextInt();
                 input.nextLine();
-                if(answer < number){
+                if(answer > number){
                     System.out.println("Masukkan Angka Yang Lebih Kecil !");
-                } else if(answer > number){
+                } else if(answer < number){
                     System.out.println("Masukkan angka yang lebih besar !");
                 }
                 success = (answer == number);
